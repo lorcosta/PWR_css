@@ -2,7 +2,7 @@ body{
   color:white;
   font-family:sans-serif;
   line-height: 110%;
-  background: gray url("polito.png") scroll center center no-repeat;
+  background: gray url("sfondo.png") scroll center center no-repeat;
 }
 footer{
   font-family: serif;
@@ -33,7 +33,6 @@ div img{
     width: 20%;
 }
 .citazione{
-  font-style: italic;
   font-family:cursive;
   text-align: center;
 }
