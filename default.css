@@ -3,15 +3,24 @@ body{
   font-family:sans-serif;
   line-height: 110%;
   background: gray url("sfondo.png") scroll center center repeat;
+  counter-reset: contatore;
 }
 footer{
   font-family: serif;
   font-style: italic;
   font-size: 0.8rem;
 }
-a{
+a:link{
   color: aqua;
 }/*link azzurri chiari*/
+a:hover{
+  color: yellow;
+  background-color: blue;
+}
+a:visited{
+  color:aqua;
+  background-color: green;
+}
 td[type="voto"]{
   text-align: center;
   width: 50%;
@@ -44,4 +53,9 @@ div img{
 .social{
   text-align: left;
   width: 10%;
+}
+p:first-letter{
+  font-size: 200%;
+  font-weight: bold;
+  color: orange;
 }
