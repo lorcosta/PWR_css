@@ -1,8 +1,8 @@
 body{
   color:white;
-  background-color: black;
   font-family:sans-serif;
   line-height: 110%;
+  background: gray url("polito.png") scroll center center no-repeat;
 }
 footer{
   font-family: serif;
@@ -22,6 +22,7 @@ td:in-range{
 td:out-of-range{
   color: red;
 }
+/* TODO: impostare il coloramento (rosso o verde) in base al voto */
 .wrapper {
   display: block;
   margin: auto;
