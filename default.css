@@ -2,7 +2,7 @@ body{
   color:white;
   font-family:sans-serif;
   line-height: 110%;
-  background: gray url("sfondo.png") scroll center center no-repeat;
+  background: gray url("sfondo.png") scroll center center repeat;
 }
 footer{
   font-family: serif;
