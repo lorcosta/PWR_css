@@ -1,0 +1,47 @@
+body{
+  color:white;
+  background-color: black;
+  font-family:sans-serif;
+  line-height: 110%;
+}
+footer{
+  font-family: serif;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+a{
+  color: aqua;
+}/*link azzurri chiari*/
+td[type="voto"]{
+  text-align: center;
+  width: 50%;
+}
+td:in-range{
+  color: lightgreen;
+}
+td:out-of-range{
+  color: red;
+}
+.wrapper {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+div img{
+    width: 20%;
+}
+.citazione{
+  font-style: italic;
+  font-family:cursive;
+  text-align: center;
+}
+.autore{
+  font-style: normal;
+  font-size: 0.7rem;
+  text-align: center;
+}
+.social{
+  text-align: left;
+  width: 10%;
+}
