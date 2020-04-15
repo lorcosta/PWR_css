@@ -27,11 +27,11 @@ td[type="voto"]{
   text-align: center;
   width: 50%;
 }
-td:in-range{
-  color: lightgreen;
+tr.inferiore{
+  color:red;
 }
-td:out-of-range{
-  color: red;
+tr.superiore{
+  color:green;
 }
 /* TODO: impostare il coloramento (rosso o verde) in base al voto */
 .wrapper {
@@ -60,4 +60,8 @@ p:first-letter{
   font-size: 200%;
   font-weight: bold;
   color: orange;
+}
+p::before{
+  counter-increment: contatore;
+  content: counter(contatore);
 }
