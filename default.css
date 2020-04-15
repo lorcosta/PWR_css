@@ -13,13 +13,15 @@ footer{
 a:link{
   color: aqua;
 }/*link azzurri chiari*/
-a:hover{
-  color: yellow;
-  background-color: blue;
-}
 a:visited{
   color:aqua;
-  background-color: green;
+}
+a:hover{
+  color: red;
+  background-color: yellow;
+}
+a:active{
+  background-color: white;
 }
 td[type="voto"]{
   text-align: center;
