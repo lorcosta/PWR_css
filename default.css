@@ -5,7 +5,12 @@ body{
   background: gray url("sfondo.png") scroll center center repeat;
   counter-reset: contatore;
 }
-footer{
+/*footer{
+  font-family: serif;
+  font-style: italic;
+  font-size: 0.8rem;
+}*/
+#footer{
   font-family: serif;
   font-style: italic;
   font-size: 0.8rem;
